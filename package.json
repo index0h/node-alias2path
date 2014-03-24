@@ -1,0 +1,40 @@
+{
+    "name": "alias2path",
+    "description": "Markdown documentation generator of DB structure",
+    "version": "0.0.1",
+    "author": "Roman Levishchenko <index.0h@gmail.com>",
+    "license": "MIT",
+    "contributors": [
+        "Roman Levishchenko <index.0h@gmail.com>"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/index0h/node-alias2path.git"
+    },
+    "keywords": [
+        "path",
+        "alias"
+    ],
+    "main": "index",
+    "devDependencies": {
+        "mocha": "1.17.0",
+        "jscoverage": "0.3.8",
+        "jshint": "2.4.1",
+        "should": "2.1.1",
+        "mocha-lcov-reporter": "0.0.1",
+        "coveralls": "2.6.1"
+    },
+    "engines": {
+        "node": ">= 0.10.x"
+    },
+    "scripts": {
+        "test": "make test"
+    },
+    "bugs": {
+        "url": "https://github.com/index0h/node-alias2path/issues"
+    },
+    "homepage": "https://github.com/index0h/node-alias2path",
+    "directories": {
+        "test": "test"
+    }
+}

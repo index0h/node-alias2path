@@ -1,0 +1,1 @@
+module.exports = require(__dirname + "/lib" + ((process.env.ALIAS2PATH_COVERAGE === "1") ? "-cov" : "") + "/main");
