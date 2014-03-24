@@ -17,6 +17,7 @@ describe("get", function () {
 });
 
 describe("get", function () {
+    alias.set("system", __dirname + "/..");
     it("should return right 'system' path", function () {
         alias.get("system").should.eql(path.join(__dirname, "..").replace(/\/$/g, ""));
     });
